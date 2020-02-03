@@ -1,0 +1,60 @@
+.about-section{
+  width: 100%;
+  min-height: 300px;
+}
+
+.about-section .container ul{
+  display: flex;
+  margin-top: -90px;
+  width: 100%;
+  max-width: 1198px;
+  background-color: #fff;
+  border-radius: 40px;
+  
+  position: absolute;
+}
+
+.about-section .container ul li{
+  flex: 1 1;
+  padding: 51px;
+  list-style: none;
+}
+
+.about-section .container ul li h2{
+  font-size: 4.4rem;
+}
+.about-section .container ul li h4{
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+.about-section .container ul li p{
+  line-height: 3rem;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 1198px){
+  .about-section .container{ 
+    padding: 0!important;
+  } 
+}
+
+@media screen and (max-width: 768px){
+  .about-section .container ul{
+    flex-direction: column;
+    
+  }
+
+  .services-section .container ul li+li{
+    margin-top: 2rem;
+  }
+
+  .about-section{
+    position: relative;
+    margin-bottom: 4rem;
+  }
+
+  .about-section .container ul{
+    position: relative;
+  }
+}

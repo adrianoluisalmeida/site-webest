@@ -1,0 +1,90 @@
+.cases-section{
+  width: 100%;
+  min-height: 788px;
+  background-image: url('../Banner/images/bg-header.png');
+  background-size: cover;
+  background-position: center;
+  padding: 10em 0; 
+  position: relative;
+  margin-top: 18rem;
+}
+
+.cases-section h2{
+  font-size: 4.4rem;
+  color: #fff;
+}
+
+.cases-section .container {
+  display: flex;
+}
+.cases-section .container div{
+  flex: 1 1;
+}
+
+.verdclub-cel{
+  width: 100%;
+}
+
+.cases-section .buttons-cases-container{
+  display: flex;
+  margin:  4rem 0 2rem;
+}
+
+.cases-section .buttons-cases-container .button-cases{
+  flex: 1 1 100px;
+  max-width: 200px;
+  height: 65px;
+  border-radius: 20px;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 15px 15px;
+  transition: 0.5s;
+}
+
+.cases-section .buttons-cases-container  .button-cases:hover{
+  background-color:#0BA4E0;
+}
+
+
+.button-cases + .button-cases{
+  margin-left: 20px;
+}
+.cases-section h3{
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin: 10rem 0rem 2rem;
+}
+
+.cases-section ul{
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+}
+.cases-section ul li{
+  font-size: 2.3rem;
+  list-style-image: url('./images/check.png');
+  color: #fff;
+  line-height: 3rem;
+}
+
+.cases-section a{
+  color: #fff;
+  font-size: 2.4rem;
+  transition: 0.5s;
+}
+
+.cases-section a:hover{
+  color: #0BA4E0;
+}
+
+@media screen and (max-width: 768px){
+  .cases-section .container{
+    flex-direction: column;
+  }
+  .cases-section h3{
+    margin-top: 4rem;
+  }
+  .verdclub-cel{
+    margin-top: 6rem;
+  }
+}
