@@ -6,7 +6,7 @@ import VerdclubLogo from './images/marca_verdclub.png';
 import VerdclubCel from './images/verdclub_cel.svg';
 
 const Cases = () => (
-  <section className="cases-section">
+  <section id="nossos-cases"  className="cases-section">
     <div className="container">
       <div>
         <h2>Nossos Cases</h2>

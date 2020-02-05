@@ -73,7 +73,7 @@ h4{
 .social-container ul li a:hover{
   color: #0BA4E0;
 }
-
+.contact-container ul li,
 .social-container ul li{
   list-style: none;
   padding: 0.2rem;
@@ -88,6 +88,15 @@ h4{
 
 .social-container ul li img{
   margin-right: 10px;
+}
+
+.contact-container a{
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #211F60;
+}
+.contact-container a:hover{
+  color: #0BA4E0;
 }
 
 @media screen and (max-width: 768px){

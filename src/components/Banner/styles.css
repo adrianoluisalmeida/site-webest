@@ -63,9 +63,12 @@
   .main-banner{
     padding: 7em 0;
   }
-
+  .main-banner .container div img,
   .main-banner .container img{
+    margin: 0 auto;
     margin-bottom: 2rem;
+    
+    max-width: 80%;
   }
 
   .main-banner h1{

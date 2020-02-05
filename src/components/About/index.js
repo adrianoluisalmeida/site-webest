@@ -3,7 +3,7 @@ import React from 'react'
 import './styles.css';
 
 const About = () => (
-  <section className="about-section">
+  <section id="quem-somos" className="about-section">
     <div className="container">
       <ul>
         <li>

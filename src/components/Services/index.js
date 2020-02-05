@@ -7,7 +7,7 @@ import ImageService2 from './images/2.png'
 import ImageService3 from './images/3.png'
 
 const Services = () => (
-  <section className="services-section">
+  <section id="o-que-fazemos" className="services-section">
     <div className="container">
       <h2>O que fazemos</h2>
       <ul className="mt-40">

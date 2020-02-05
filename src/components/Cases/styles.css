@@ -81,10 +81,22 @@
   .cases-section .container{
     flex-direction: column;
   }
+
+  .cases-section .container div{
+    text-align: center;
+  }
+
+  .cases-section ul{
+    text-align: left;
+  }
   .cases-section h3{
     margin-top: 4rem;
   }
   .verdclub-cel{
     margin-top: 6rem;
+  }
+
+  .cases-section .buttons-cases-container .button-cases{
+    margin: 0 auto;
   }
 }
