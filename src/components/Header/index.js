@@ -34,23 +34,23 @@ export default class Header extends Component {
               </div>
               <ul class="navbar-items">
                 <li>
-                  <AnchorLink href="#quem-somos" offset="100">
+                  <AnchorLink href="#quem-somos" onClick={ this.handleClick }  offset="100">
                     Quem Somos
                   </AnchorLink>  
                 </li>
                 <li>
-                  <AnchorLink href="#o-que-fazemos" offset="100">
+                  <AnchorLink href="#o-que-fazemos" onClick={ this.handleClick }  offset="100">
                     O que Fazemos
                   </AnchorLink>
                 </li>  
                 <li>
-                  <AnchorLink href="#nossos-cases">
+                  <AnchorLink onClick={ this.handleClick }  href="#nossos-cases">
                     Nossos Cases
                   </AnchorLink>
                 </li>
 
                 <li>
-                  <AnchorLink href="#comece-um-projeto" className="default-btn" offset="100">
+                  <AnchorLink onClick={ this.handleClick }  href="#comece-um-projeto" className="default-btn" offset="100">
                     Comece um Projeto
                   </AnchorLink>
                 </li>
