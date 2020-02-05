@@ -41,7 +41,7 @@
   width: 90%;
   margin-left: auto;
   order: 2;
-  
+  height: auto !important;
 }
 
 
@@ -51,6 +51,7 @@
   }
   .main-banner .container div img {
     width: 100%;
+    height: auto !important;
   }
   
 }
@@ -66,8 +67,8 @@
   .main-banner .container div img,
   .main-banner .container img{
     margin: 0 auto;
+    height: auto !important;
     margin-bottom: 2rem;
-    
     max-width: 80%;
   }
 
