@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
+
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 import './styles.css';
@@ -50,9 +51,9 @@ export default class Header extends Component {
                 </li>
 
                 <li>
-                  <AnchorLink onClick={ this.handleClick }  href="#comece-um-projeto" className="default-btn" offset="100">
+                  <a href="http://projeto.webest.com.br" className="default-btn" offset="100">
                     Comece um Projeto
-                  </AnchorLink>
+                  </a>
                 </li>
               </ul>
             </nav>

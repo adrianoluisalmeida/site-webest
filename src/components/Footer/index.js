@@ -20,7 +20,7 @@ const Footer = () => (
             Vamos descobrir juntos?
           </h2>
         </div>
-        <a href="" className="button-footer">
+        <a href="http://projeto.webest.com.br" className="button-footer">
           Falar sobre o projeto
         </a>
       </div>
