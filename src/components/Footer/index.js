@@ -33,13 +33,13 @@ const Footer = () => (
         <h4>Acompanhe a Webest</h4>
         <ul>
           <li>
-              <a href="">
+              <a href="https://www.facebook.com/webest.digital" rel="noopener noreferrer" target="_blank">
                 <img src={ImgFacebook} alt=""/>
                 Facebook
               </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://www.instagram.com/webest.digital"  rel="noopener noreferrer" target="_blank">
               <img src={ImgInstagram} alt=""/>
               Instagram
             </a>
